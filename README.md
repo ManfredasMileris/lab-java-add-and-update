@@ -64,7 +64,7 @@ Create the following routes as efficiently as possible, using validation where a
    - Did you use the same type of route to update patient information as to update an employee's department?
    - No, for employee department PATCH was used, for patient PUT.
    - Why did you choose the selected strategy?
-   - With PATCH I can update a single piece of information, with PUT i can create more information. 
+   - With PATCH, I can update a single piece of information, with PUT i can create more information. 
    - What are the advantages and disadvantages of the strategies you chose for creating these routes?
    - PUT advantages : Ensures full resource replacement, clear and explicit updates, Disadvantages: Heavier on data transfer, may lead to unnecessary updates.
    - PATCH advantages : Allows for partial updates, reducing network overhead and complexity, Disadvantages : Requires careful implementation to handle partial updates correctly
